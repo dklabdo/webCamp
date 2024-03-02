@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  h1{
+    @apply text-main text-4xl sm:text-5xl md:text-6xl font-bold my-6 mt-12
+  }
+  h2{
+    @apply text-main text-lg md:text-2xl font-medium my-2
+  }
+  p{
+    @apply text-lg my-1
+  }
+  .gradiant{
+    @apply text-white bg-gradient-to-r from-[#2145A3] to-[#D941CA]  rounded-lg
+  }
+}
+
+
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root::-webkit-scrollbar{
+  display: none;
+}
+
+
